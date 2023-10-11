@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body {
+    background-color: dodgerblue;
+    padding: 50px;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+#people-list {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contact-info {
+    width: 230px;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#contact-image {
+    border: 1px solid darkgray;
+    padding: 5px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+}
+
+#contact-email {
+    background-color: orangered;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#contact-email a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
